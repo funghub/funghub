@@ -12,6 +12,9 @@ I work in bioinformatics, focusing on data analysis, computational biology, and 
 - **[NGS Classification](https://github.com/funghub/gene_expression_data-classification)**  
   This R notebook takes a NGS data set and applies a binary classification method to sort out replicate1 and other replicates. Then this is plot on a ROC curve to explore different thresholds. The notebook also explores the use of confusion matrix to calculate specificity (tnr), sensitivity (tpr), and false positve rate. Explanations of the diagrams are included in the notebook.
 
+- **[Converting HGVS Notation to Protein Sequences](https://github.com/funghub/cysticfibrosis-project)**
+  Through CFTR-Fr datasets, we seek to visualize the list of mutations on AlphaFold by inputting the DNA sequences and protein sequences created from the HGVS nomenclature and reference gene on NCBI with Python. We investigate how mutations in those regions of the gene affect the final shape and function of the CFTR protein, specifically the crucial parts of the protein, such as Phe508del in 90% of cystic fibrosis patients.
+  
 ## Connect With Me
 
 - LinkedIn: (https://www.linkedin.com/in/funglawrence/)
