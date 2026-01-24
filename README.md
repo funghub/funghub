@@ -4,7 +4,7 @@ I work in bioinformatics, focusing on data analysis, computational biology, and 
 
 ## Featured Projects
 
-- **[NGS Normalization](https://github.com/funghub/gene_expression_data-clustering)**  
+- **[NGS Normalization](https://github.com/funghub/gene_expression_data-normalization)**  
   This R notebook normalizes the raw counts with TMM (trimmed mean of M-values) and CPM (counts per million) from Pasilla gene expression. A heatmap via a distance matrix is generated with pheatmap library. With edgeR, plots of normalized values cpm & tmm are created. With dplyr, tidyr, and ggplot2 libraries a density plot of expression values for all samples is created.
   
 - **[NGS Clustering](https://github.com/funghub/gene_expression_data-clustering)**  
