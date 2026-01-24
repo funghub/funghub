@@ -1,6 +1,6 @@
 # Hi, I'm Lawrence Fung
 
-I work in bioinformatics, focusing on data analysis, computational biology, and projects improving human health.
+I work in bioinformatics and computational biology, with a focus on data analysis, statistical modeling, and reproducible workflows applied to genomics and human health–related datasets. My projects emphasize transforming high-dimensional biological data into interpretable insights using R and Python.
 
 ## Featured Projects
 
