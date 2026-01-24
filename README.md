@@ -8,7 +8,7 @@ I work in bioinformatics and computational biology, with a focus on data analysi
   This R notebook normalizes the raw counts with TMM (trimmed mean of M-values) and CPM (counts per million) from Pasilla gene expression. A heatmap via a distance matrix is generated with pheatmap library. With edgeR, plots of normalized values cpm & tmm are created. With dplyr, tidyr, and ggplot2 libraries a density plot of expression values for all samples is created.
   
 - **[NGS Clustering](https://github.com/funghub/gene_expression_data-clustering)**  
-  This R notebook will use statistical techniques to understand a NGS data set and compare gene expression by hierarchical clustering and k-means clustering. Explanations of the diagrams are included in the notebook.
+  This R notebook will use statistical techniques to understand a NGS data set and compare gene expression by hierarchical clustering and k-means clustering (unsupervised learning). Explanations of the diagrams are included in the notebook.
   
   This code will use statistical techniques to understand a NGS data set and compare gene expression by hierarchical clustering and k-means clustering. 
 
