@@ -4,6 +4,9 @@ I work in bioinformatics and computational biology, with a focus on data analysi
 
 ## Featured Projects
 
+- **[Machine Learning: Logistic Regression Model Training for Melanoma SNV](https://github.com/funghub/predict_snv_effect)**  
+  This project utilizes a logistic regression, a supervised machine learning model, to predict the pathogenicity of specific non-coding variants in melanoma given epigenetic features.
+
 - **[NGS Normalization](https://github.com/funghub/gene_expression_data-normalization)**  
   This R notebook normalizes the raw counts with TMM (trimmed mean of M-values) and CPM (counts per million) from Pasilla gene expression. A heatmap via a distance matrix is generated with pheatmap library. With edgeR, plots of normalized values cpm & tmm are created. With dplyr, tidyr, and ggplot2 libraries a density plot of expression values for all samples is created.
   
