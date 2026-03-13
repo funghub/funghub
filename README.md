@@ -4,6 +4,9 @@ I work in bioinformatics and computational biology, with a focus on data analysi
 
 ## Featured Projects
 
+- **[Drug Discovery Web Application](https://github.com/funghub/YC_HACK2026)**  
+  At the Y Combinator Hackathon, my team leveraged bioinformatics machine learning tools (DrugFlow, PLACER, and ADMET-AI) to build a centralized platform that helps researchers evaluate generated ligand compounds and identify the most promising candidates for further research and development. Our goal was to lower the barrier to computational drug discovery by: centralizing multiple bioinformatics tools, explaining tools and results in a way that new researchers can understand, and helping scientists identify promising compounds faster during the exploratory phase of research.
+
 - **[Machine Learning: Logistic Regression Model Training for Melanoma SNV](https://github.com/funghub/predict_snv_effect)**  
   This project utilizes a logistic regression, a supervised machine learning model, to predict the pathogenicity of specific non-coding variants in melanoma given epigenetic features. Pandas was used to organize, clean, and merge the data. Scikit-learn was used to train and evaluate the model, along with one-hot encoding for nucleotides because logistic regression only takes numerical features. Pyplot from matplotlib and seaborn was used to generate a heatmap of the confusion matrix and plot the ROC-AUC curve.
 
@@ -11,12 +14,10 @@ I work in bioinformatics and computational biology, with a focus on data analysi
   This R notebook normalizes the raw counts with TMM (trimmed mean of M-values) and CPM (counts per million) from Pasilla gene expression. A heatmap via a distance matrix is generated with pheatmap library. With edgeR, plots of normalized values cpm & tmm are created. With dplyr, tidyr, and ggplot2 libraries a density plot of expression values for all samples is created.
   
 - **[NGS Clustering](https://github.com/funghub/gene_expression_data-clustering)**  
-  This R notebook will use statistical techniques to understand a NGS data set and compare gene expression by hierarchical clustering and k-means clustering (unsupervised learning). Explanations of the diagrams are included in the notebook.
-  
-  This code will use statistical techniques to understand a NGS data set and compare gene expression by hierarchical clustering and k-means clustering. 
+  This R notebook will use statistical techniques to understand a NGS data set and compare gene expression by hierarchical clustering and k-means clustering (unsupervised learning). Explanations of the diagrams are included in the notebook. 
 
 - **[NGS Classification](https://github.com/funghub/gene_expression_data-classification)**  
-  This R notebook takes a NGS data set and applies a binary classification method to sort out replicate1 and other replicates. Then this is plot on a ROC curve to explore different thresholds. The notebook also explores the use of confusion matrix to calculate specificity (tnr), sensitivity (tpr), and false positve rate. Explanations of the diagrams are included in the notebook.
+  This R notebook takes a NGS data set and applies a binary classification method to sort out replicate1 and other replicates. Then this is plot on a ROC curve to explore different thresholds. The notebook also explores the use of confusion matrix to calculate specificity (tnr), sensitivity (tpr), and false positive rate. Explanations of the diagrams are included in the notebook.
 
 - **[Hidden Markov Model Protein Family](https://github.com/funghub/proteinfamHMM)**  
   This R notebook creates a HMM model that represents a given diagram showing all the path of the hidden states. I will find the most likely sequence of hidden states for each protein family. In addition, given a sequence of observations, I will also find the likely family that would have generated those observations and then find the most likely sequence of hidden states of that family with the Viterbi algorithm.
