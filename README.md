@@ -4,8 +4,8 @@ I work in bioinformatics and computational biology, with a focus on data analysi
 
 ## Featured Projects
 
-- **[Fine Tuning Protein Folding Model: ESMFold](https://github.com/funghub/finetune_ESMFold)**
-  Supervised finetuneing of Meta's ESMFold (hosted on Hugging Face at facebook/esmfold_v1) on Toxin-Antitoxin Protein Sequences. Improve pLDDT confidence scores on low-confidence proteins. The results were modest as fine-tuning helped about half the proteins improve their pLDDT score. Built with Hugging Face Transformers (EsmForProteinFolding, AutoTokenizer, Trainer, TrainingArguments), PyTorch (layer freezing & custom loss), and Biopython for data parsing.
+- **[Fine Tuning Protein Folding Model: ESMFold](https://github.com/funghub/finetune_ESMFold)**  
+Supervised finetuneing of Meta's ESMFold (hosted on Hugging Face at facebook/esmfold_v1) on Toxin-Antitoxin Protein Sequences. Improve pLDDT confidence scores on low-confidence proteins. The results were modest as fine-tuning helped about half the proteins improve their pLDDT score. Built with Hugging Face Transformers (EsmForProteinFolding, AutoTokenizer, Trainer, TrainingArguments), PyTorch (layer freezing & custom loss), and Biopython for data parsing.
 
 - **[Drug Discovery Web Application](https://github.com/funghub/YC_HACK2026)**  
   At the Y Combinator Hackathon, my team leveraged bioinformatics machine learning tools (DrugFlow, PLACER, and ADMET-AI) to build a centralized platform that helps researchers evaluate generated ligand compounds and identify the most promising candidates for further research and development. Our goal was to lower the barrier to computational drug discovery by: centralizing multiple bioinformatics tools, explaining tools and results in a way that new researchers can understand, and helping scientists identify promising compounds faster during the exploratory phase of research.
