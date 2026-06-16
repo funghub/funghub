@@ -4,6 +4,14 @@ I work in bioinformatics and computational biology, with a focus on data analysi
 
 # Featured Projects
 
+## Bioinformatics Related Projects
+
+- **[RNA-Seq/TempO-Seq Data Processing Pipeline](https://github.com/funghub/PFAS_project)**  
+  For a PFAS exposure transcriptomics study, I built an automated Nextflow pipeline that leverages bioinformatics tools (SRA-tools, FastP/FastQC, STAR, Picard, and featureCounts) to take raw public RNA-seq data from an SRA accession through to analysis-ready gene expression counts, complete with quality control reports at each stage. My goal was to lower the barrier to reproducible RNA-seq analysis by: automating retrieval and processing of public sequencing data end-to-end, packaging every tool's dependencies in conda environments so the pipeline runs identically on any machine, and giving researchers clean, comparable count matrices ready for downstream differential expression analysis.
+
+- **[Converting HGVS Notation to Protein Sequences](https://github.com/funghub/cysticfibrosis-project)**  
+  Through CFTR-Fr datasets, we seek to visualize the list of mutations on AlphaFold by inputting the DNA sequences and protein sequences created from the HGVS nomenclature and reference gene on NCBI with Python. We investigate how mutations in those regions of the gene affect the final shape and function of the CFTR protein, specifically the crucial parts of the protein, such as Phe508del in 90% of cystic fibrosis patients.
+
 ## Machine Learning + Biology Related Projects
 
 - **[Fine Tuning Protein Folding Model: ESMFold](https://github.com/funghub/finetune_ESMFold)**  
@@ -26,14 +34,6 @@ Supervised finetuneing of Meta's protein prediction model ESMFold (hosted on Hug
 
 - **[Hidden Markov Model Protein Family](https://github.com/funghub/proteinfamHMM)**  
   This R notebook creates a HMM model that represents a given diagram showing all the path of the hidden states. I will find the most likely sequence of hidden states for each protein family. In addition, given a sequence of observations, I will also find the likely family that would have generated those observations and then find the most likely sequence of hidden states of that family with the Viterbi algorithm.
-
-## Bioinformatics Related Projects
-
-- **[RNA-Seq/TempO-Seq Data Processing Pipeline](https://github.com/funghub/PFAS_project)**  
-  For a PFAS exposure transcriptomics study, I built an automated Nextflow pipeline that leverages bioinformatics tools (SRA-tools, FastP/FastQC, STAR, Picard, and featureCounts) to take raw public RNA-seq data from an SRA accession through to analysis-ready gene expression counts, complete with quality control reports at each stage. My goal was to lower the barrier to reproducible RNA-seq analysis by: automating retrieval and processing of public sequencing data end-to-end, packaging every tool's dependencies in conda environments so the pipeline runs identically on any machine, and giving researchers clean, comparable count matrices ready for downstream differential expression analysis.
-
-- **[Converting HGVS Notation to Protein Sequences](https://github.com/funghub/cysticfibrosis-project)**  
-  Through CFTR-Fr datasets, we seek to visualize the list of mutations on AlphaFold by inputting the DNA sequences and protein sequences created from the HGVS nomenclature and reference gene on NCBI with Python. We investigate how mutations in those regions of the gene affect the final shape and function of the CFTR protein, specifically the crucial parts of the protein, such as Phe508del in 90% of cystic fibrosis patients.
   
 ## Connect With Me
 
