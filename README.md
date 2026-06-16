@@ -17,9 +17,6 @@ I work in bioinformatics and computational biology, with a focus on data analysi
 - **[Fine Tuning Protein Folding Model: ESMFold](https://github.com/funghub/finetune_ESMFold)**  
 Supervised finetuneing of Meta's protein prediction model ESMFold (hosted on Hugging Face at facebook/esmfold_v1) on Toxin-Antitoxin Protein Sequences. Improve pLDDT confidence scores on low-confidence proteins. The results were modest as fine-tuning helped about half the proteins improve their pLDDT score. Built with Hugging Face Transformers (EsmForProteinFolding, AutoTokenizer, Trainer, TrainingArguments), PyTorch (layer freezing & custom loss), and Biopython for data parsing.
 
-- **[Drug Discovery Web Application](https://github.com/funghub/YC_HACK2026)**  
-  At the Y Combinator Hackathon, my team leveraged bioinformatics machine learning tools (DrugFlow, PLACER, and ADMET-AI) to build a centralized platform that helps researchers evaluate generated ligand compounds and identify the most promising candidates for further research and development. Our goal was to lower the barrier to computational drug discovery by: centralizing multiple bioinformatics tools, explaining tools and results in a way that new researchers can understand, and helping scientists identify promising compounds faster during the exploratory phase of research.
-
 - **[Machine Learning: Logistic Regression Model Training for Melanoma SNV](https://github.com/funghub/predict_snv_effect)**  
   This project utilizes a logistic regression, a supervised machine learning model, to predict the pathogenicity of specific non-coding variants in melanoma given epigenetic features. Pandas was used to organize, clean, and merge the data. Scikit-learn was used to train and evaluate the model, along with one-hot encoding for nucleotides because logistic regression only takes numerical features. Pyplot from matplotlib and seaborn was used to generate a heatmap of the confusion matrix and plot the ROC-AUC curve.
 
@@ -34,7 +31,15 @@ Supervised finetuneing of Meta's protein prediction model ESMFold (hosted on Hug
 
 - **[Hidden Markov Model Protein Family](https://github.com/funghub/proteinfamHMM)**  
   This R notebook creates a HMM model that represents a given diagram showing all the path of the hidden states. I will find the most likely sequence of hidden states for each protein family. In addition, given a sequence of observations, I will also find the likely family that would have generated those observations and then find the most likely sequence of hidden states of that family with the Viterbi algorithm.
-  
+
+## Applied Machine Learning/AI Real World Application
+
+- **[Drug Discovery Web Application](https://github.com/funghub/YC_HACK2026)**  
+  At the Y Combinator Hackathon, my team leveraged bioinformatics machine learning tools (DrugFlow, PLACER, and ADMET-AI) to build a centralized platform that helps researchers evaluate generated ligand compounds and identify the most promising candidates for further research and development. Our goal was to lower the barrier to computational drug discovery by: centralizing multiple bioinformatics tools, explaining tools and results in a way that new researchers can understand, and helping scientists identify promising compounds faster during the exploratory phase of research.
+
+- **[MCP-Grounded AI Agent for Teaching ML in Bioinformatics](https://github.com/funghub/ML_Bioinfo_Teach)**  
+  At the Bioinformatics Hackathon, my team built Geneius, an AI agent that explains machine learning concepts in bioinformatics by connecting a Gemini LLM to a PubMed MCP server, letting the agent query NCBI's E-utilities directly for real peer-reviewed articles instead of relying on the model's own potentially outdated or hallucinated recall. We also used LangChain to trace and evaluate the agent's tool calls and outputs, monitoring performance to make sure the MCP integration was actually improving reliability. Our goal was to lower the barrier to learning computational biology by: using MCP to ground every explanation in live, verifiable PubMed sources rather than unchecked model knowledge, making dense ML concepts accessible through plain-language breakdowns and generated diagrams, and giving researchers clickable links to the exact papers the agent cited so they can verify claims themselves.
+
 ## Connect With Me
 
 - LinkedIn: (https://www.linkedin.com/in/funglawrence/)
