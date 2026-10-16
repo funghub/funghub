@@ -6,7 +6,7 @@ I work in bioinformatics and computational biology, with a focus on data analysi
 
 ## Traditional Bioinformatics Related Projects
 
-- ⭐**[RNA-Seq/TempO-Seq Data Processing Pipeline](https://github.com/funghub/PFAS_project)**  
+- **[⭐RNA-Seq/TempO-Seq Data Processing Pipeline](https://github.com/funghub/PFAS_project)**  
   For a PFAS exposure transcriptomics study, I built an automated Nextflow pipeline that leverages bioinformatics tools (SRA-tools, FastP/FastQC, STAR/Bowtie2, Picard, and featureCounts) to take raw public RNA-seq data from an SRA accession through to analysis-ready gene expression counts, complete with quality control reports at each stage. My goal was to lower the barrier to reproducible RNA-seq analysis by: automating retrieval and processing of public sequencing data end-to-end, packaging every tool's dependencies in conda environments so the pipeline runs identically on any machine, and giving researchers clean, comparable count matrices ready for downstream differential expression analysis.
   - ⭐**[RNA-Seq/TempO-Seq Differential Gene Expression Analysis and Pathway Analysis with R Shiny App](https://github.com/funghub/PFAS_project_R-analysis)**
     DESeq2 and GSEA on the featureCounts table from the previous Nextflow pipeline are completed in an R shiny app. This repository also contains code for data cleaning, code for data comparisons with the authors' gene count table, heatmap generation, CPM normalization of counts to validate, etc.
