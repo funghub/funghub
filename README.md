@@ -6,12 +6,12 @@ I work in bioinformatics and computational biology, with a focus on data analysi
 
 ## Traditional Bioinformatics Related Projects
 
-- **[RNA-Seq/TempO-Seq Data Processing Pipeline](https://github.com/funghub/PFAS_project)**  
+- ⭐**[RNA-Seq/TempO-Seq Data Processing Pipeline](https://github.com/funghub/PFAS_project)**  
   For a PFAS exposure transcriptomics study, I built an automated Nextflow pipeline that leverages bioinformatics tools (SRA-tools, FastP/FastQC, STAR/Bowtie2, Picard, and featureCounts) to take raw public RNA-seq data from an SRA accession through to analysis-ready gene expression counts, complete with quality control reports at each stage. My goal was to lower the barrier to reproducible RNA-seq analysis by: automating retrieval and processing of public sequencing data end-to-end, packaging every tool's dependencies in conda environments so the pipeline runs identically on any machine, and giving researchers clean, comparable count matrices ready for downstream differential expression analysis.
-  - **[RNA-Seq/TempO-Seq Differential Gene Expression Analysis and Pathway Analysis with R Shiny App](https://github.com/funghub/PFAS_project_R-analysis)**
-    DESeq2 and GSEA on the featureCounts table from the previous Nextflow pipeline are completed in an R shiny app. This repository also contains code for data cleaning, code for data comparisons with the authors' gene count table, heatmap generation, etc.
+  - ⭐**[RNA-Seq/TempO-Seq Differential Gene Expression Analysis and Pathway Analysis with R Shiny App](https://github.com/funghub/PFAS_project_R-analysis)**
+    DESeq2 and GSEA on the featureCounts table from the previous Nextflow pipeline are completed in an R shiny app. This repository also contains code for data cleaning, code for data comparisons with the authors' gene count table, heatmap generation, CPM normalization of counts to validate, etc.
 
-- **[PySpark + GCP Pipeline for Multi-Ancestry GWAS Analysis](https://github.com/funghub/cs131-project)**  
+- ⭐**[PySpark + GCP Pipeline for Multi-Ancestry GWAS Analysis](https://github.com/funghub/cs131-project)**  
   For a Processing Big Data course project, I worked with the Pan-UK Biobank, a ~17GB, 58-million-row multi-ancestry GWAS dataset, to compare genetic effect sizes for triglyceride and Type II diabetes variants between European and Central/South Asian ancestry populations. I built a PySpark pipeline on Google Cloud Dataproc to clean and restructure the raw, messy summary statistics, handling inconsistent schemas and significant missingness in the Central/South Asian data, into matched effect size (beta) and standard error pairs per ancestry per variant. Using this cleaned data, I ran pairwise heterogeneity z-tests and built Manhattan and Q-Q plots in R (qqman) to visualize where and how significantly effect sizes diverged across populations, surfacing how sample size and data quality gaps between ancestries limit cross-population comparability in GWAS research
 
 - **[Converting HGVS Notation to Protein Sequences](https://github.com/funghub/cysticfibrosis-project)**  
@@ -19,7 +19,7 @@ I work in bioinformatics and computational biology, with a focus on data analysi
 
 ## Machine Learning + Biology Related Projects
 
-- **[Fine Tuning Protein Folding Model: ESMFold](https://github.com/funghub/finetune_ESMFold)**  
+- ⭐**[Fine Tuning Protein Folding Model: ESMFold](https://github.com/funghub/finetune_ESMFold)**  
 Supervised finetuneing of Meta's protein prediction model ESMFold (hosted on Hugging Face at facebook/esmfold_v1) on Toxin-Antitoxin Protein Sequences. Improve pLDDT confidence scores on low-confidence proteins. The results were modest as fine-tuning helped about half the proteins improve their pLDDT score. Built with Hugging Face Transformers (EsmForProteinFolding, AutoTokenizer, Trainer, TrainingArguments), PyTorch (layer freezing & custom loss), and Biopython for data parsing.
 
 - **[Machine Learning: Logistic Regression Model Training for Melanoma SNV](https://github.com/funghub/predict_snv_effect)**  
@@ -39,10 +39,10 @@ Supervised finetuneing of Meta's protein prediction model ESMFold (hosted on Hug
 
 ## Applied Machine Learning/AI Real World Application
 
-- **[Drug Discovery Web Application](https://github.com/funghub/YC_HACK2026)**  
+- ⭐**[Drug Discovery Web Application](https://github.com/funghub/YC_HACK2026)**  
   At the Y Combinator Hackathon, my team leveraged bioinformatics machine learning tools (DrugFlow, PLACER, and ADMET-AI) to build a centralized platform that helps researchers evaluate generated ligand compounds and identify the most promising candidates for further research and development. Our goal was to lower the barrier to computational drug discovery by: centralizing multiple bioinformatics tools, explaining tools and results in a way that new researchers can understand, and helping scientists identify promising compounds faster during the exploratory phase of research.
 
-- **[MCP-Grounded AI Agent for Teaching ML in Bioinformatics](https://github.com/funghub/ML_Bioinfo_Teach)**  
+- ⭐**[MCP-Grounded AI Agent for Teaching ML in Bioinformatics](https://github.com/funghub/ML_Bioinfo_Teach)**  
   At the Bioinformatics Hackathon, my team built Geneius, an AI agent that explains machine learning concepts in bioinformatics by connecting a Gemini LLM to a PubMed MCP server, letting the agent query NCBI's E-utilities directly for real peer-reviewed articles instead of relying on the model's own potentially outdated or hallucinated recall. We also used LangChain to trace and evaluate the agent's tool calls and outputs, monitoring performance to make sure the MCP integration was actually improving reliability. Our goal was to lower the barrier to learning computational biology by: using MCP to ground every explanation in live, verifiable PubMed sources rather than unchecked model knowledge, making dense ML concepts accessible through plain-language breakdowns and generated diagrams, and giving researchers clickable links to the exact papers the agent cited so they can verify claims themselves.
 
 ## Connect With Me
