@@ -2,7 +2,7 @@
 
 I work in bioinformatics and computational biology, with a focus on data analysis, statistical modeling, machine learning, and reproducible workflows applied to multi-omics and clinical datasets. My projects emphasize transforming high-dimensional biological data into interpretable insights using R and Python.
 
-# Featured Projects
+# Featured Projects 🚀
 
 ## Traditional Bioinformatics Related Projects
 
